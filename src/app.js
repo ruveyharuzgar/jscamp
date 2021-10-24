@@ -1,9 +1,20 @@
-console.log("merhaba kodlama.io")
+// let sayi1=10
+// sayi1="rüveyha"
+// console.log(sayi1)
+// let student={id:1, name:"rüveyha"}
+// console.log(student)
 
-let konutKredileri=["Konut Kredisi", "Emlak Konut Kredisi","Kamu Konut Kredisi"]
-
-console.log("<ul>")
-for (let i =0 ;i<3; i++) {
-    console.log("<li>"+ konutKredileri[i]+ "</li>")
+function save(puan=10,ogrenci) {
+    console.log(ogrenci.name+": "+puan)
 }
-console.log("</ul>")
+//save(15)
+//save(undefined,student)
+//save(student,100)
+
+let student={id:1, name:"rüveyha"}
+let students=["Rüveyha Rüzgar","xxx","yyy"]
+console.log(students)
+
+let students2=[student,{id:2,name:"Rüveyha "},students[1],"Ankara",{city:"Mersin"}]
+console.log(students2)
+
